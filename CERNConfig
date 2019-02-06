@@ -1,0 +1,13 @@
+{
+    "git.ignoreLegacyWarning": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true,
+    
+    //For overriding specific folder associations at CERN
+    "material-icon-theme.folders.associations": {
+        "StorageBackends": "Database",
+        "MainThreads": "Controller",
+        "FilenameParsers": "Generator"
+    },
+    "material-icon-theme.activeIconPack": "none"
+}
