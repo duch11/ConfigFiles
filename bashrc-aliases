@@ -1,0 +1,48 @@
+Common:
+alias lsa='ls -A --color=always --group-directories-first -X'
+alias ls='ls --color=always --group-directories-first -X'
+alias pyv='python --version'
+alias pcv='uname -snr'
+
+# Laptop:
+alias code='cd /home/jonas/Code'
+
+#TDD python
+alias tddpython='cd /home/jonas/Code/python-tdd-book'
+alias venv='source virtualenv/bin/activate'
+
+#Angular
+alias rbvi='gnome-terminal --geometry 100x20+20+300 --working-directory=/home/jonas/Code/ViNAB-Backend -- nodemon app.js'
+alias rfvi='gnome-terminal --geometry 100x20+20+300 --working-directory=/home/jonas/Code/ViNAB-Frontend-Angular -- ng serve --open'
+
+#bashrc and profile
+alias bashrc='nano /home/jonas/.bashrc'
+alias bashprofile='nano /home/jonas/.bash_profile'
+
+#Cern SSH
+alias connect-cern='ssh jholm@pcatd96 -A'
+alias mount-cern='sudo sshfs -o allow_other,default_permissions jholm@pcatd96:/home/jholm/ /mnt/cern'
+
+
+# CERN PC:
+#versions
+alias cm_setup='source /afs/cern.ch/atlas/project/tdaq/cmake/cmake_tdaq/bin/cm_setup.sh'
+alias setup_cm_setup_nightly='source /afs/cern.ch/atlas/project/tdaq/cmake/cmake_tdaq/bin/cm_setup.sh nightly'
+
+#bashrc and profile
+alias bashrc='nano /home/jholm/.bashrc'
+alias bashprofile='nano /home/jholm/.bash_profile'
+
+#go to script
+alias dev='cd /home/jholm/CastorScript'
+
+# Tests:
+alias tst='/home/jholm/CastorScript/runtests.sh'
+alias runtests='tst'
+
+#git pull  and test
+alias utst='git add * && git stash && git pull && tst'
+alias runtestsupdated='utst'
+
+# fix ssh
+alias fixssh='eval "$(ssh-agent -s)" && ssh-add ~/.ssh/gitlab-cernkey'
