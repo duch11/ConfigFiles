@@ -1,13 +1,19 @@
 {
+    "files.autoSave": "afterDelay",
+    "files.useExperimentalFileWatcher": true,
+    "window.zoomLevel": 0,
     "git.ignoreLegacyWarning": true,
     "workbench.iconTheme": "material-icon-theme",
     "git.autofetch": true,
     
-    //For overriding specific folder associations at CERN
     "material-icon-theme.folders.associations": {
         "StorageBackends": "Database",
-        "MainThreads": "Controller",
-        "FilenameParsers": "Generator"
+        "MainThreads": "Class",
+        "FilenameParsers": "Generator",
+        "mailinglogger": "Mail",
+        "Script": "Core",
+        "MigrationCheckers": "Coverage"
     },
     "material-icon-theme.activeIconPack": "none"
 }
+
