@@ -21,7 +21,7 @@ alias bashprofile='nano /home/jonas/.bash_profile'
 
 # Cern SSH
 alias connect-cern='ssh jholm@pcatd96 -A'
-alias mount-cern='sudo sshfs -o allow_other,default_permissions jholm@pcatd96:/home/jholm/ /mnt/cern'
+alias mount-cern='sudo sshfs -o allow_other,default_permissions,idmap=user jholm@pcatd96:/home/jholm/ /home/jonas/cern'
 
 
 # CERN PC:
