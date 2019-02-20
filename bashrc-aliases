@@ -28,7 +28,7 @@ alias mount-cern='sudo sshfs -o allow_other,default_permissions,idmap=user jholm
 #versions
 alias cm_setup='source /afs/cern.ch/atlas/project/tdaq/cmake/cmake_tdaq/bin/cm_setup.sh'
 alias setup_cm_setup_nightly='source /afs/cern.ch/atlas/project/tdaq/cmake/cmake_tdaq/bin/cm_setup.sh nightly'
-alias tdaqcode='(setup_cm_setup_nightly && env | grep PYTHONPATH | grep -v TDAQ_PYTHONPATH > pypath) && export pypath && code CastorScript'
+alias tdaqcode='(setup_cm_setup_nightly && env | grep PYTHONPATH | grep -v TDAQ_PYTHONPATH > pypath) && export `cat pypath` && code CastorScript'
 
 #bashrc and profile
 alias bashrc='nano /home/jholm/.bashrc'
