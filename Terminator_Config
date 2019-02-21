@@ -1,12 +1,17 @@
 [global_config]
+  borderless = True
   enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
-  handle_size = 5
+  handle_size = 0
+  inactive_color_offset = 0.82
   scroll_tabbar = True
   sticky = True
-  title_font = Sans 12
+  title_font = Source Code Pro for Powerline Heavy 14
   title_hide_sizetext = True
+  title_inactive_bg_color = "#222d32"
+  title_inactive_fg_color = "#ffffff"
   title_receive_bg_color = "#ff6900"
   title_transmit_bg_color = "#0087d7"
+  title_use_system_font = False
   window_state = maximise
 [keybindings]
   cycle_next = <Primary>Page_Up
@@ -21,20 +26,101 @@
     [[[window0]]]
       parent = ""
       type = Window
+  [[SSH]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = e2985043-5fac-444f-8d4a-f9d7eb416435
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 2610:116
+      size = 1870, 1174
+      title = jholm@pc-tbed-pub-31:/tmp/atlascdr
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 724
+      ratio = 0.618824531516
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 1060
+      ratio = 0.568181818182
+      type = HPaned
+    [[[child4]]]
+      order = 1
+      parent = child2
+      position = 372
+      ratio = 0.51726519337
+      type = VPaned
+    [[[child5]]]
+      order = 0
+      parent = child4
+      position = 183
+      ratio = 0.498655913978
+      type = VPaned
+    [[[child8]]]
+      order = 1
+      parent = child4
+      position = 150
+      ratio = 0.439481268012
+      type = VPaned
+    [[[terminal10]]]
+      order = 1
+      parent = child8
+      profile = default
+      type = Terminal
+      uuid = 21f801bc-9443-49ae-acf2-7767b11b4832
+    [[[terminal11]]]
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 26332a97-2c33-4ddf-9dd4-dc96ae6e3176
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = e2985043-5fac-444f-8d4a-f9d7eb416435
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = a05e7953-335b-46c8-81e9-96c5059fb5e2
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = default
+      type = Terminal
+      uuid = 9e6f1d43-f6ab-4bdd-ba26-f659e0394a39
+    [[[terminal9]]]
+      order = 0
+      parent = child8
+      profile = default
+      type = Terminal
+      uuid = f32dd934-fdc3-4e8d-b490-c6ab8d233590
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#1e1e1e"
+    background_color = "#222d32"
     background_darkness = 0.72
     background_image = None
     copy_on_selection = True
+    cursor_blink = False
     cursor_color = "#0087d7"
-    cursor_shape = ibeam
     exit_action = hold
-    font = Roboto Mono Medium for Powerline Medium 10
+    font = Source Code Pro for Powerline Semi-Bold 10
     foreground_color = "#ffffff"
     icon_bell = False
     scrollback_infinite = True
+    scrollbar_position = hidden
     urgent_bell = True
     use_system_font = False
     visible_bell = True
+  [[New Profile]]
+    background_image = None
