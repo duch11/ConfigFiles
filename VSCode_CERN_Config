@@ -1,19 +1,20 @@
 {
-    "files.autoSave": "afterDelay",
-    "files.useExperimentalFileWatcher": true,
     "window.zoomLevel": 0,
-    "git.ignoreLegacyWarning": true,
+    "files.useExperimentalFileWatcher": true,
+    "files.autoSave": "afterDelay",
     "workbench.iconTheme": "material-icon-theme",
+    "git.ignoreLegacyWarning": true,
     "git.autofetch": true,
-    
+    "python.linting.pylintPath": "/usr/bin/pylint",
+    "python.pythonPath": "${PYTHONPATH}",
     "material-icon-theme.folders.associations": {
         "StorageBackends": "Database",
-        "MainThreads": "Class",
+        "Threads": "Class",
         "FilenameParsers": "Generator",
         "mailinglogger": "Mail",
         "Script": "Core",
+        "cs": "Core",
         "MigrationCheckers": "Coverage"
-    },
-    "material-icon-theme.activeIconPack": "none"
+    }
 }
 
