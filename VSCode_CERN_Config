@@ -15,6 +15,13 @@
         "Script": "Core",
         "cs": "Core",
         "MigrationCheckers": "Coverage"
+    },
+    "workbench.colorTheme": "Dark Lemon Material",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#5c5e00",
+        "editor.selectionHighlightBorder": "#fffb00",
+        "editor.selectionHighlightBackground": "#ffffff00",
+        "editor.lineHighlightBorder": "#bebb1038"
     }
 }
 
