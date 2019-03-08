@@ -49,17 +49,18 @@ alias do-runScript='python -u $HOME/CastorScript/Script/CastorScript.py $HOME/Ca
 #versions
 alias cm_setup='source /afs/cern.ch/atlas/project/tdaq/cmake/cmake_tdaq/bin/cm_setup.sh'
 alias setup_cm_setup_nightly='source /afs/cern.ch/atlas/project/tdaq/cmake/cmake_tdaq/bin/cm_setup.sh nightly'
+alias do-cm_setup_nightly='setup_cm_setup_nightly'
 alias tdaqcode='(setup_cm_setup_nightly && env | grep PYTHONPATH | grep -v TDAQ_PYTHONPATH > pypath) && export `cat pypath` && code $HOME/CastorScript'
 
 #bashrc and profile
-alias bashrc='nano $HOME/.bashrc'
-alias bashprofile='nano $HOME/.bash_profile'
+alias bashrc='vim $HOME/.bashrc'
+alias bashprofile='vim $HOME/.bash_profile'
 
 #go to script
 alias dev='cd $HOME/CastorScript'
 
 # Tests:
-alias tst='$HOME/CastorScript/runtests.sh'
+alias tst='$HOME/CastorScript/run_unit_tests.sh'
 alias runtests='tst'
 
 #git pull  and test
