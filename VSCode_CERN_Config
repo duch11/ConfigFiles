@@ -1,4 +1,18 @@
 {
+    "python.pythonPath": "/cvmfs/sft.cern.ch/lcg/releases/Python/2.7.15-c333c/x86_64-centos7-gcc8-opt/bin/python",
+    
+    "python.unitTest.pyTestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.unittestEnabled": true,
+    "python.unitTest.promptToConfigure": false,
+    "python.unitTest.autoTestDiscoverOnSaveEnabled": true,
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        "./Script",
+        "-p",
+        "Test*.py"
+    ],
     "window.zoomLevel": 0,
     "files.useExperimentalFileWatcher": true,
     "files.autoSave": "afterDelay",
@@ -6,7 +20,6 @@
     "git.ignoreLegacyWarning": true,
     "git.autofetch": true,
     "python.linting.pylintPath": "/usr/bin/pylint",
-    "python.pythonPath": "${PYTHONPATH}",
     "material-icon-theme.folders.associations": {
         "StorageBackends": "Database",
         "Threads": "Class",
