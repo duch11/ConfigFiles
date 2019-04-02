@@ -5,13 +5,12 @@
   * blue windows  
   * font settings (Assumes powerline theme icons installed and bash-it installed)
 
-Files found at:
-
-vs-code config:
+# Files found at:
+## vs-code config:
 /home/jholm/.config/Code/User/settings.json
 
-terminator config:
+## terminator config:
 /home/jholm/.config/terminator/config
 
-bashrc and bash-profile:
+## bashrc and bash-profile:
 /home/jholm/.bashrc|.bash-profile
