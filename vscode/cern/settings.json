@@ -1,0 +1,35 @@
+{
+    "git.ignoreLegacyWarning": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true,
+    "python.pythonPath": "/cvmfs/sft.cern.ch/lcg/releases/Python/2.7.15-c333c/x86_64-centos7-gcc8-opt/bin/python",
+    "material-icon-theme.folders.associations": {
+        "StorageBackends": "Database",
+        "Threads": "Class",
+        "FilenameParsers": "Generator",
+        "Script": "Core",
+        "cs": "Core",
+        "MigrationCheckers": "Coverage",
+        "UnitTests": "Test"
+    },
+    "workbench.colorTheme": "Dark Lemon Material",
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#5c5e00",
+        "editor.selectionHighlightBorder": "#fffb00",
+        "editor.selectionHighlightBackground": "#ffffff00",
+        "editor.lineHighlightBorder": "#bebb1038",
+        "merge.currentContentBackground": "#004e1a93",
+        "merge.currentHeaderBackground": "#20a10093",
+        "merge.incomingHeaderBackground": "#0300a193",
+        "merge.incomingContentBackground": "#01004e93"
+    },
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "breadcrumbs.enabled": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.restore": true,
+    "window.menuBarVisibility": "toggle"
+    
+}
